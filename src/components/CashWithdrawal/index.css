@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-container {
+  background-color: #150b3e;
+  border-width: 0px;
+  border-radius: 15px;
+  padding: 15px;
+  height: 50vh;
+  width: 50vw;
+}
+.heading-container {
+  display: flex;
+  flex-direction: row;
+}
+.span-element {
+  background-color: #c7d2fe;
+  border-radius: 25px;
+  height: 35px;
+  width: 35px;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  padding: 10px;
+}
+.main-heading {
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding: 10px;
+  color: #d4d2db;
+}
+.amount-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+.your-balance {
+  color: #585076;
+  font-family: 'Roboto';
+}
+.in-rupees {
+  color: #585076;
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.amount {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.withdraw {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.choose-sum {
+  color: #382f5a;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+.button {
+  color: #d4d2db;
+  background-color: #382f5a;
+  height: 30px;
+  width: 24vw;
+  margin-bottom: 5px;
+  border-color: #c4c4c4;
+  border-width: 1px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+}
