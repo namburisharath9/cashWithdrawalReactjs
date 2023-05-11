@@ -1,4 +1,4 @@
-import Component from 'react'
+import {Component} from 'react'
 
 import './index.css'
 
@@ -7,25 +7,25 @@ class CashWithdrawal extends Component {
 
   onFifty = () => {
     this.setState(prevState => ({
-      amount: prevState.amount + 50,
+      amount: prevState.amount - 50,
     }))
   }
 
   onHundred = () => {
     this.setState(prevState => ({
-      amount: prevState.amount + 100,
+      amount: prevState.amount - 100,
     }))
   }
 
   onTwoHundred = () => {
     this.setState(prevState => ({
-      amount: prevState.amount + 200,
+      amount: prevState.amount - 200,
     }))
   }
 
   onFiveHundred = () => {
     this.setState(prevState => ({
-      amount: prevState.amount + 500,
+      amount: prevState.amount - 500,
     }))
   }
 
